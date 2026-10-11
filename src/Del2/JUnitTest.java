@@ -44,12 +44,12 @@ public class JUnitTest {
         //Arrange
 
         TextCounter counter = new TextCounter();
-        String text = "text";
+        String text = "Jag heter Mona";
 
         //Act
-        counter.addText("Mona");
-        counter.addText("Heter");
-        counter.addText("Jag");
+        counter.addText("text");
+        counter.addText("text");
+        counter.addText("text");
         int actualRows = counter.getRows();
         int actualCharacters = counter.getCharactersnumbers();
         int expectedCharacters = 12;
